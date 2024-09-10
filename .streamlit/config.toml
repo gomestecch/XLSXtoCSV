@@ -1,4 +1,4 @@
 [server]
 headless = true
-port = $PORT
+# port = "$PORT"  # Essa linha foi removida
 enableCORS = false
