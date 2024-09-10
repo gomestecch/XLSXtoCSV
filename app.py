@@ -71,8 +71,11 @@ def adicionar_colunas_extras(df):
             nome_coluna = st.text_input(f"Nome da coluna {i+1}:")
             conteudo_coluna = st.text_input(f"Conteúdo único para a coluna {i+1}:")
             if nome_coluna and conteudo_coluna:
+                # Garante que o conteúdo da coluna está em UTF-8
+                conteudo_coluna_utf8 = conteudo_coluna.encode('utf-8').decode('utf-8')
+                
                 # Preenche todas as linhas da nova coluna com o mesmo valor
-                df[nome_coluna] = conteudo_coluna
+                df[nome_coluna] = conteudo_coluna_utf8
     return df
 
 # Upload do arquivo
