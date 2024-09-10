@@ -3,7 +3,7 @@ import pandas as pd
 import re
 import os
 
-st.title("Processador de Arquivos de Cobrança")
+st.title("Conversor de Relatórios")
 
 # Função para processar o DataFrame
 def processar_dataframe(df):
