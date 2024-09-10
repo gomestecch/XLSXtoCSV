@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 # Lê o arquivo Excel em um DataFrame
-input_file = '02parcelasnaocontemplados.xlsx'  
+input_file = ''  
 
 # Verifica se a extensão do arquivo é .xlsx
 if not input_file.endswith('.xlsx'):
