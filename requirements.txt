@@ -28,10 +28,10 @@ MarkupSafe==2.1.5
 matplotlib-inline==0.1.7
 mdurl==0.1.2
 nest-asyncio==1.6.0
-numpy==1.22.3  # Exemplo de versão compatível, ajuste conforme necessário
+numpy
 openpyxl==3.1.5
 packaging==24.1
-pandas==2.2.2
+pandas
 parso==0.8.4
 prompt_toolkit==3.0.47
 protobuf==5.27.2
